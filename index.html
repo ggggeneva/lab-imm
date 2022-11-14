@@ -1,0 +1,122 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome1">
+  <meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+  <title>Lab.-Imm.</title>
+  <link rel="stylesheet" href="site.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <div class="lm-page">
+    <div class="lm-header">
+      <div class="lm-title">
+        <p>Lab.&mdash;Imm.</p>
+      </div>
+      <div class="lm-about">
+        <p>About</p>
+      </div>
+    </div>
+    <div class="lm-archive-container">
+    <div class="lm-archive-filter-container">
+<!-- Control buttons -->
+      <div id="lm-archive-button-container-restaurant">
+        <button class="btn active" onclick="filterSelection('all')"> All</button>
+        <button class="btn" onclick="filterSelection('golden-empire')">Golden Empire</button>
+        <button class="btn" onclick="filterSelection('hkfc')">Hong Kong Food City</button>
+        <button class="btn" onclick="filterSelection('sun-world')">Sun World</button>
+      </div>
+      <div id="lm-archive-button-container-tags">
+        <button class="btn-tag" onclick="filterSelection('china')"> China</button>
+        <button class="btn-tag" onclick="filterSelection('nz')">New Zealand</button>
+        <button class="btn-tag" onclick="filterSelection('letters')">Letters</button>
+        <button class="btn-tag" onclick="filterSelection('forms')">Forms</button>
+        <button class="btn-tag" onclick="filterSelection('identification')"> Identification</button>
+        <button class="btn-tag" onclick="filterSelection('evidence')">Supporting Evidence</button>
+        <button class="btn-tag" onclick="filterSelection('misc')">Miscellaneous</button>
+        <button class="btn-tag" onclick="filterSelection('recipes')">Recipes</button>
+        <button class="btn-tag" onclick="filterSelection('photos')">Photos</button>
+        <button class="btn-tag" onclick="filterSelection('chinese')">Chinese</button>
+        <button class="btn-tag" onclick="filterSelection('english')">English</button>
+        <br>
+        <button class="btn-tag" onclick="filterSelection('yellow-pages')">Yellow Pages</button>
+        <button class="btn-tag" onclick="filterSelection('aklcncl-archive')">Auckland Council Archives</button>
+      </div>
+    </div>
+    <div class="lm-archive-gallery-container">
+      <div class="lm-archive-gallery-column">
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire china identification chinese">
+            <img src="./images/passport-cover.jpg" alt="">
+            <p class="lm-captions">People's Republic of China Passport (cover), 1986.</p>
+          </div>
+        </div>
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire chinese evidence china">
+            <img src="./images/certificate.jpg" alt="">
+            <p class="lm-captions">Certificate of Merit, 1986.</p>
+          </div>
+        </div>
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire china chinese identification">
+            <img src="./images/shenzhen-id.jpg" alt="">
+            <p class="lm-captions">Shenzhen Resident Registration ID, 1980.<br>Lowu Hotel Employee ID.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lm-archive-gallery-column">
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire china chinese identification">
+            <img src="./images/passport-1.jpg" alt="">
+            <p class="lm-captions">People's Republic of China Passport (inside cover, page 1), 1986.</p>
+          </div>
+        </div>
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire english misc nz">
+            <img src="./images/golden-empire-amended-plan.jpg" alt="">
+            <p class="lm-captions">Amended Plan for Fully Licensed Chinese Restaurant at 'The Plaza Shopping Centre,' 1980. Auckland Council Archives.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lm-archive-gallery-column">
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire english misc nz">
+            <img src="./images/golden-empire-kitchenhood.jpg" alt="">
+            <p class="lm-captions">Amended Plan for Fully Licensed Chinese Restaurant at 'The Plaza Shopping Centre,' 1980. Auckland Council Archives.</p>
+          </div>
+        </div>
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire english misc nz">
+            <img src="./images/yellowpages-goldenempire-1985.jpg" alt="">
+            <p class="lm-captions">Auckland Yellow Pages, 1985.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lm-archive-gallery-column">
+        <div class="lm-archive-content-container">
+          <div class="filterDiv golden-empire english misc nz">
+            <img src="./images/yellowpages-goldenempire-1987.jpg" alt="">
+            <p class="lm-captions">Auckland Yellow Pages, 1987.</p>
+          </div>
+        </div>
+        <div class="lm-archive-content-container">
+          <div class="filterDiv sun-world english recipes">
+            <p class="lm-content-text lm-content-text-heading">Sponge Cake with Fruit Cream Filling</p>
+            <p class="lm-content-text lm-content-text-body"><b>Ingredients:</b><br>1000g egg<br>400g sugar<br>400g low gluten flour<br>100g melted unsalted butter<br>1000g cream<br>100g icing sugar<br><br>
+              <b>Method:</b><br>Beat egg and sugar together until fluffy. Sift flour into mixture, mix in slowly. Add in melted butter while mixing at the right speed, too fast the butter will sink, too slow it will clump. Bake.<br>
+              <br>Whip cream and icing sugar at 10:1 ratio, e.g. 1000g cream and 100g icing sugar. Mix in canned fruit salad for filling layer between sponge cake layers. Use softer fruit to decorate the cake, such as kiwifruit, mango, strawberry.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="custom.js"></script>
+
+</body>
